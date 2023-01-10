@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+	
+	<!-- HTML TABLE PRACTICE STARTS HERE -->
+		<h2>NAMES AND GENDER</h2>
+		<h4>SEE TABLE BELOW</h4>
+		<p>Below are names organised by gender.</p>
+		
+		<table>
+			<tr>
+				<th>Male</th>
+				<th>Female</th>
+				<th>Other</th>
+			</tr>
+			<tr>
+				<td>Charles</td>
+				<td>Sandra</td>
+				<td>Madina</td>
+			</tr>
+			<tr>
+				<td>Paul</td>
+				<td>Pauline</td>
+				<td>Madina again</td>
+			</tr>
+			<tr>
+				<td>Samuel</td>
+				<td>Jane</td>
+				<td>Madina 2</td>
+			</tr>
+			<tr>
+				<td>Greg</td>
+				<td>Star</td>
+				<td>Madina 2 again</td>
+			</tr>
+		</table>
+	
+	</body>
+</html>

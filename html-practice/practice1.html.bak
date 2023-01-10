@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="stylesheet" href="styles.css" type="text/css"> 
+        <title>Practice One</title>
+    </head>
+<!-- Body Starts Here -->
+    <body>
+        <h1>PRACTICE 1: WELCOME TO HTML</h1>
+
+        <p>A warm welcome to HTML. You're going to have a lot of fun as you learn to build web pages with HTML. PS You can do many things with HTML but definately not to build an operating system.</p>
+        <img src="./images/AFR013-scaled.jpg" alt="model pointing" style="width: 100%;">
+
+        <h3>WHAT YOU'LL LEARN</h3>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolore, reiciendis adipisci doloremque provident accusantium asperiores soluta delectus unde officia nemo deleniti voluptates ducimus tempora, corrupti voluptatibus a. Ab non perferendis laudantium nulla reiciendis perspiciatis labore saepe voluptatem sapiente ad.</P>
+        <ul style="list-style-type: none;">
+            <li><a href="https://www.codetrain.org/">Game Development</a></li>
+            <li><a href="https://codetraingh.com/">Fullstack Develpoment</a></li>
+            <li><a href="https://www.linkedin.com/shareArticle?mini=true&">Social Networking</a></li>
+        </ul>
+
+        <div>
+            <h3>HERE ARE GOOD BOOKS TO READ AS YOU LEARN</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In soluta illo illum autem ratione, eaque cupiditate voluptatum explicabo deserunt nesciunt.</P>
+            <ul>
+                <li>The Riches Man in Babylon</li>
+                <li>Way of The Wolf: Straight Line Selling: Master the art of persuation, influence, and success.</li>
+                <li>Strat with why</li>
+                <li>The psychology of selling</li>
+                <li>The one minuite manager</li>
+            </ul>
+			
+			<section id="bookShelf">
+				<article class="bookArticle">
+					<img src="./images/richestmaninbabylon.jpg" alt="The Richest Man in Babylon" tooltip="The Richest Man in Babylon">
+					<div>
+						<h3>Way of the wolf</h3>
+						<p>Master the art of straight line selling by Jordan Belfort is a best seller.</p>
+					</div>
+				</article>
+				
+				<article class="bookArticle">
+					<img src="./images/Straight-line-selling.jpg" alt="Way of The Wolf: Straight Line Selling" tooltip="Way of The Wolf: Straight Line Selling">
+					<div>
+						<h3>Way of the wolf</h3>
+						<p>Master the art of straight line selling by Jordan Belfort is a best seller.</p>
+					</div>
+				</article>
+            
+				<article class="bookArticle">
+					<img src="./images/Start with why.jpg" alt="Start with why" tooltip="Start with why" width="20%">
+					<div>
+						<h3>Way of the wolf</h3>
+						<p>Master the art of straight line selling by Jordan Belfort is a best seller.</p>
+					</div>
+				</article>
+				
+				<article class="bookArticle">
+					<img src="./images/Thepsychologyofselling.jpg" alt="The Psychology of Selling" tooltip="The Psychology of Selling" width="20%">
+					<div>
+						<h3>Way of the wolf</h3>
+						<p>Master the art of straight line selling by Jordan Belfort is a best seller.</p>
+					</div>
+				</article>
+				
+				<article class="bookArticle">
+					<img src="./images/the-new-one-minute-manager-book-cover.webp" alt="The one minuite manager" tooltip="The one minuite manager" width="20%">
+					<div>
+						<h3>Way of the wolf</h3>
+						<p>Master the art of straight line selling by Jordan Belfort is a best seller.</p>
+					</div>
+				</article>
+            
+            
+            
+            
+        </div>
+		
+		<div>
+			<div class="cssBgColor">One</div>
+			<div class="cssBgColor">Two</div>
+			<div class="cssBgColor">Three</div>
+		</div>
+        
+        
+    </body>
+</html>

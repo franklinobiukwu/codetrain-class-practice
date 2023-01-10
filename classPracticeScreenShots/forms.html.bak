@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms</title>
+	<head>
+	
+	<body>
+	<!--HTML FORM PRACTICE STARTS HERE-->
+	
+		<form>
+			<h2>WANNA BE PART OF US?</h2>
+			<h4>FILL FORM BELOW</h4>
+			<label>First Name</label>
+			<input type="text" name="" placeholder=""><br><br>
+			
+			<label>Last Name</label>
+			<input type="text" name="" placeholder=""><br><br>
+			
+			<label>Email</label>
+			<input type="email" name="" placeholder=""><br><br>
+			
+			<label>Phone Number</label>
+			<input type="number" name="" placeholder=""><br><br>
+			
+			<label>Gender</label><br>
+			<span>Male</span>
+			<input type="radio" name="gender">
+			<span>Female</span>
+			<input type="radio" name="gender">
+			<span>Other</span>
+			<input type="radio" name="gender"><br><br>
+			
+			<input type="submit">
+		</form>
+	</body>
+</html>

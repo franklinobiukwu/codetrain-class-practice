@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#bookShelf{
+	background-color:;
+	display: flex;
+	justify-content: space-between;
+}
+.bookArticle{
+	height: 20rem;
+	width: 18%;
+	background-color: lightgray;
+}
+.bookArticle>img{
+	width: 100%;
+}
+.bookArticle h3 p{
+	font-family: montserrat;
+	margin: 5px;
+}

@@ -1,0 +1,15 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: montserrat, sans-serif;
+}
+body>h1{
+	text-align: center;
+	color: #333333;
+}
+.cssBgColor>firstchild{
+	background-color: tomato;
+}

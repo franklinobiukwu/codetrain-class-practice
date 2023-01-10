@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms</title>
+		<!--LINKING GOOGLE FONTS-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<!--FORM STYLES STARTS HERE-->
+		<style type="text/css">
+			body {
+				background-image: url(https://wallpapercave.com/wp/wp4210799.jpg);
+			}
+			form{
+				font-family: montserrat;
+				background: rgb(2,0,36);
+				background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+				width: 50%;
+				color: #ffffff;
+				/*padding: 20px 50px 0px 50px;*/
+			}
+			form>h2{
+				
+			}
+			form label{
+				display: block;
+				margin-bottom: 5px;
+			}
+			
+			/*:not(input:[type="submit"]){
+				margin-bottom: 20px;
+				width: 50%;
+			}*/
+			input[type="text"],[type="email"],[type="number"]{
+				background-color: #ffffff;
+				border: 1px solid #ffffff;
+				border-radius: 5px;
+				padding: 4px;
+				width: 50%;
+			}
+			
+			input[type="submit"]{
+				background-color: #00000000;
+				Padding: 10px 30px;
+				font-weight: bold;
+				color: #ffffff;
+				border: 1px solid #ffffff;
+				border-radius: 10px;
+				font-size: 1.2em;
+				cursor: pointer;
+				margin-bottom: 50px;
+			}
+			#dottedLine{
+				border-right: 5px dashed white;
+				padding: 20px 50px 0px 50px;
+			}
+			input[type="submit"]:hover{
+				background-color: rgb(255 255 255 / 20%);
+			}
+			#genderContainer{
+				margin-bottom: 30px;
+			}
+			.formInput{
+				margin-bottom: 20px;
+			}
+			div#flag {
+				background-image: url(https://wallpapercave.com/wp/wp4210799.jpg);
+				background-position-y: bottom;
+			}
+			.mist {
+				height: 100vh;
+				width: 100vw;
+				background-color: #fffffff7;
+			}
+			
+		</style>
+		
+	<head>
+	
+	<body>
+	<!--HTML FORM PRACTICE STARTS HERE-->
+		<div class="mist">
+		<form>
+		
+			<div id="dottedLine">
+				<h2>WANNA BE PART OF US?</h2>
+				<h4>FILL FORM BELOW</h4>
+				<p>Hey there, this is an opportunity to join the club for FREE! <br> Fill the form NOW to join.</p>
+				
+				<div class="formInput">
+					<label>First Name</label>
+					<input type="text" name="" placeholder="">
+				</div>
+				
+				<div class="formInput">
+					<label>Last Name</label>
+					<input type="text" name="" placeholder="">
+				</div>
+				
+				<div class="formInput">
+					<label>Email</label>
+					<input type="email" name="" placeholder="">
+				</div>
+				
+				<div class="formInput">
+					<label>Phone Number</label>
+					<input type="number" name="" placeholder="">
+				</div>
+				
+			
+				
+				<div>
+					<div id="genderContainer">
+					<label for="gender">Gender</label>
+					<span>Male</span>
+					<input type="radio" name="gender" id="male" value="male" checked>
+					<span>Female</span>
+					<input type="radio" name="gender" id="female" value="female">
+					<span>Other</span>
+					<input type="radio" name="gender" id="other" value="other">
+					</div>
+				</div>
+				
+			
+				
+				<input type="submit">
+			</div>
+			<div id="flag" style="width:100%; height: 20px">
+			</div>
+		</form>
+		</div>
+	</body>
+</html>

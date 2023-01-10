@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/registration-form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="POST" class="container2">
+            <div class="segment" id="firstChild">
+                <p id="title">Codetrain Registration Form</p>
+                <p>There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process. </p>
+                <div id="emailWrap">
+                    <span id="mainEmail">johndoe@gmail.com<span>Switch account</span></span>
+                    <p class="red" id="required">*Required</p>
+                </div>
+            </div>
+            <!-- EMAIL -->
+            <div class="segment">
+                <p>Email<span class="red">*</span></p>
+                <input type="email" name="email" value="" placeholder="Your email">
+            </div>
+            <!-- FULL NAME -->
+            <div class="segment">
+                <p>Full Name<span class="red">*</span></p>
+                <input type="text" name="fullName" value="" placeholder="Your answer">
+            </div>
+            <!-- PHONE NUMBER -->
+            <div class="segment">
+                <p>Phone Number<span class="red">*</span></p>
+                <input type="text" name="phoneNumber" value="" placeholder="Your answer">
+            </div>
+            <!-- NOK PHONE NUMBER -->
+            <div class="segment">
+                <p>Phone number of next of kin</p>
+                <p>Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+                <input type="text" name="phoneNok" value="" placeholder="Your answer">
+            </div>
+            <!-- PAYMENT -->
+            <div class="segment radio">
+                <p>Can you pay 60% or more of the full Codetrain fees (GHS6000)<span class="red">*</span></p>
+
+                <div class="radio">   
+                    <span><input type="radio" name="payment60%" value="No" placeholder="Your answer"> <span>No</span></span>    
+                    <span><input type="radio" name="payment60%" value="Yes" placeholder="Your answer"> <span>Yes</span></span>
+                </div>
+                
+            </div>
+            <!-- WHO PAYS -->
+            <div class="segment">
+                <p>Please indicate who is going to pay your fees <span class="red">*</span></p>
+                <div class="radio">
+                    <span><input type="radio" name="whoPays" value="yourself"> <span>Yourself</span></span>
+                    <span><input type="radio" name="whoPays" value="parent"> <span>Parent/Sponsor</span></span>
+                    <span><input type="radio" name="whoPays" value="organization"> <span>Organization</span></span>
+                </div>
+            </div>
+            <!-- LOCATION -->
+            <div class="segment">
+                <p>Location<span class="red">*</span></p>
+                <input type="text" name="location" value="" placeholder="Your answer">
+            </div>
+            <!-- CURRENT OR PREVIOUS SCHOOL -->
+            <div class="segment">
+                <p>Current or previous school<span class="red">*</span></p>
+                <input type="text" name="school" value="" placeholder="Your answer">
+            </div>
+            <!-- WHY CODETRAIN -->
+            <div class="segment">
+                <p>Why do you want to join Codetrain<span class="red">*</span></p>
+                <input type="text" name="whyCodetrain" value="" placeholder="Your answer">
+            </div>
+            <!-- HOW DID YOU HEAR ABOUT CODETRAIN -->
+            <div class="segment">
+                <p>How did you hear about Codetrain?<span class="red">*</span></p>
+                <input type="text" name="howDidYouKnow" value="" placeholder="Your answer">
+            </div>
+
+            <p id="formCopy">A copy of your responses will be emailed to the address you provided.</p>
+
+            <div id="submitContainer">
+                <input type="submit"> 
+                <div id="progressWrapper"><div id="progress"></div> <span>Page 1 of 1</span></div>
+                <span>Clear form</span>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
